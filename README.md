@@ -5,6 +5,9 @@
 > 一个俯视视角的地面交通微观模拟器。像玩沙盒一样在空白画布上「画」出道路，把断头路端点设成开放路口，按下开始，看成百上千辆车自己等红灯、跟车、变道、堵死、绕路。
 > 仅 Android，单 Activity，纯本地运行，无账号、无网络、无遥测。
 
+[![Latest release](https://img.shields.io/github/v/release/lummezzz/KeepRolling)](https://github.com/lummezzz/KeepRolling/releases/latest)  
+**[⬇ 下载 APK](https://github.com/lummezzz/KeepRolling/releases/latest)** · [全部版本](https://github.com/lummezzz/KeepRolling/releases) · Android 8.0 (API 26)+
+
 ---
 
 <a id="简体中文"></a>
@@ -334,7 +337,13 @@ gradlew.bat test
 
 ### 12. 下载
 
-本仓库以**源码形式**发布，预编译 APK 若提供会放在 GitHub Releases 的 Assets 中，**不会提交进 Git 仓库**。请从 Releases 页面按版本下载，或按第 5 节自行构建。
+预编译 APK 以 **GitHub Release 附件**的形式提供，**不提交进 Git 仓库**（否则每次 clone 都要多背几十 MB 二进制，且无法优雅地删除历史）。
+
+- **下载最新版**：<https://github.com/lummezzz/KeepRolling/releases/latest>
+- **全部版本**：<https://github.com/lummezzz/KeepRolling/releases>
+- **当前版本**：`v0.1.0`（`versionName 0.1.0` / `versionCode 1`），APK 约 40 MB，最低 Android 8.0（API 26）
+
+安装步骤：下载 `.apk` → 系统提示时允许「安装未知来源应用」→ 打开安装。Release 页每个附件旁都显示了 SHA-256，可自行用 `sha256sum` 核对。也可以按第 5 节从源码构建。
 
 ---
 
@@ -657,4 +666,10 @@ Conventions: use `feature/xxx` or `fix/xxx` branches rather than committing dire
 
 ### 12. Downloads
 
-This repository is distributed **as source**. Any prebuilt APK will be attached to a GitHub Release as an asset and **will not be committed to the Git repository**. Download it from the Releases page, or build it yourself as described in §5.
+Prebuilt APKs ship as **GitHub Release assets** and are **never committed to the repository** (that would add tens of megabytes of binaries to every clone, and rewriting history later is painful).
+
+- **Latest release**: <https://github.com/lummezzz/KeepRolling/releases/latest>
+- **All releases**: <https://github.com/lummezzz/KeepRolling/releases>
+- **Current**: `v0.1.0` (`versionName 0.1.0` / `versionCode 1`), ~40 MB APK, Android 8.0 (API 26)+
+
+To install: download the `.apk`, allow "install unknown apps" when the system asks, then open it. Every asset on the release page shows a SHA-256 you can verify with `sha256sum`. You can also build from source as described in §5.
