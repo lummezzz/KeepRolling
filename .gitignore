@@ -41,6 +41,10 @@ google-services.json
 *.aab
 *.ap_
 output-metadata.json
+# AS「Generate Signed Bundle / APK」的默认输出目录不在 build/ 下，需单独忽略；
+# 该目录里 .dm 为 AGP 生成的 baseline profile，同样不入库。
+app/release/
+*.dm
 
 # ---- 日志与临时文件 --------------------------------------------------
 *.log
