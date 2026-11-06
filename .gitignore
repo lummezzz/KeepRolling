@@ -1,0 +1,49 @@
+# Keep Rolling · Git 忽略规则
+# 仓库根 = KeepRolling/。规则目标：源码 + Gradle Wrapper + 文档进仓库，
+# 构建产物、本机配置、签名密钥、打包文件一律不进。
+
+# ---- Gradle / 构建产物 ----------------------------------------------
+.gradle/
+build/
+**/build/
+app/build/
+.cxx/
+.externalNativeBuild/
+.captures/
+# 注意：不要写 *.jar —— gradle/wrapper/gradle-wrapper.jar 必须提交，
+# 否则别人 clone 下来无法用 ./gradlew 构建。
+
+# ---- 本机环境 / IDE --------------------------------------------------
+# 含本机 Android SDK 绝对路径，绝不入库
+local.properties
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+Thumbs.db
+
+# ---- 签名密钥与凭据 --------------------------------------------------
+# release 签名相关文件一律不入库；请放在仓库外，或放本机并仅通过
+# 环境变量 / ~/.gradle/gradle.properties 引用。
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+# 本项目并未使用 Firebase，防止误加
+google-services.json
+*.pem
+.env
+.env.*
+
+# ---- 打包产物 --------------------------------------------------------
+# APK/AAB 作为 GitHub Release 的 Asset 提供，不提交进 Git。
+*.apk
+*.aab
+*.ap_
+output-metadata.json
+
+# ---- 日志与临时文件 --------------------------------------------------
+*.log
+*.tmp
+*.temp
+~$*

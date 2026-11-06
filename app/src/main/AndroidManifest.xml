@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 本 App 为纯本地模拟器：不需要网络、不需要任何敏感权限 -->
+
+    <!-- 按钮按下的轻震反馈。
+         normal 权限，安装即授予，**不需要运行时申请**，也不会弹任何对话框。
+         但它必须声明：`View.performHapticFeedback()` 走的是
+         ViewRootImpl → WindowManagerService，而 WMS 会检查调用方的 VIBRATE 权限，
+         没有就直接 return false（静默失败，不抛异常）—— 这正是"开关开着却不震"的原因。 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.KeepRolling"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

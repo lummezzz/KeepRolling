@@ -1,0 +1,14 @@
+# 关闭"空白 Issue"，引导贡献者使用上面的结构化模板。
+# GitHub 会自动读取本文件；无需其它配置。
+blank_issues_enabled: false
+
+# 日后若启用了 Discussions 或想加文档入口，取消下面注释并把
+# OWNER / REPO 换成实际仓库地址（不要提交带占位符的 URL）：
+#
+# contact_links:
+#   - name: 💬 讨论区 / Discussions
+#     url: https://github.com/OWNER/REPO/discussions
+#     about: 使用交流、想法讨论、不作为缺陷反馈入口
+#   - name: 📖 构建与使用说明 / README
+#     url: https://github.com/OWNER/REPO#readme
+#     about: 环境要求、构建命令与首次上手步骤

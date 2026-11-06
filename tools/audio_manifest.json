@@ -1,0 +1,565 @@
+{
+  "music": [
+    {
+      "file": "bgm_day_edit.ogg",
+      "kind": "music",
+      "dur_s": 93.9,
+      "loop": true,
+      "target_lufs": -16.0,
+      "loop_s": 93.9,
+      "note": "循环点 93.9s · 目标 -16.0 LUFS"
+    },
+    {
+      "file": "bgm_day_view.ogg",
+      "kind": "music",
+      "dur_s": 110.8,
+      "loop": true,
+      "target_lufs": -16.0,
+      "loop_s": 110.8,
+      "note": "循环点 110.8s · 目标 -16.0 LUFS"
+    },
+    {
+      "file": "bgm_night.ogg",
+      "kind": "music",
+      "dur_s": 116.8,
+      "loop": true,
+      "target_lufs": -17.0,
+      "loop_s": 116.8,
+      "note": "循环点 116.8s · 目标 -17.0 LUFS"
+    },
+    {
+      "file": "bgm_crash.ogg",
+      "kind": "music",
+      "dur_s": 40.0,
+      "loop": true,
+      "target_lufs": -20.0,
+      "loop_s": 40.0,
+      "note": "循环点 40.0s · 目标 -20.0 LUFS"
+    },
+    {
+      "file": "amb_day_city.ogg",
+      "kind": "music",
+      "dur_s": 60.0,
+      "loop": true,
+      "target_lufs": -26.0,
+      "loop_s": 60.0,
+      "note": "循环点 60.0s · 目标 -26.0 LUFS"
+    },
+    {
+      "file": "amb_night_city.ogg",
+      "kind": "music",
+      "dur_s": 60.0,
+      "loop": true,
+      "target_lufs": -26.0,
+      "loop_s": 60.0,
+      "note": "循环点 60.0s · 目标 -26.0 LUFS"
+    }
+  ],
+  "sample_rate": 48000,
+  "sfx": [
+    {
+      "file": "sfx_arrival.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -14.0,
+      "loop": false,
+      "note": "到达（限流使用，勿逐车）"
+    },
+    {
+      "file": "sfx_auto_cycle_on.wav",
+      "kind": "sfx",
+      "dur_ms": 500,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "自动循环：齿轮上弦"
+    },
+    {
+      "file": "sfx_capsule_in.wav",
+      "kind": "sfx",
+      "dur_ms": 260,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "胶囊滑入：橡胶滑动 + 磁吸"
+    },
+    {
+      "file": "sfx_capsule_out.wav",
+      "kind": "sfx",
+      "dur_ms": 220,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "胶囊滑出：反向滑动 + 气声"
+    },
+    {
+      "file": "sfx_clear_canvas.wav",
+      "kind": "sfx",
+      "dur_ms": 800,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "清空：向外扩散 + 低频消散"
+    },
+    {
+      "file": "sfx_crash.wav",
+      "kind": "sfx",
+      "dur_ms": 1400,
+      "gain_db": 2.0,
+      "loop": false,
+      "note": "崩溃：结构塌落（长黑暗尾）"
+    },
+    {
+      "file": "sfx_crash_banner.wav",
+      "kind": "sfx",
+      "dur_ms": 260,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "横幅落下：闷响 + 纸翻"
+    },
+    {
+      "file": "sfx_curve_grab.wav",
+      "kind": "sfx",
+      "dur_ms": 70,
+      "gain_db": -10.0,
+      "loop": false,
+      "note": "抓曲率手柄：几乎听不见"
+    },
+    {
+      "file": "sfx_delete_save.wav",
+      "kind": "sfx",
+      "dur_ms": 250,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "删存档：撕纸"
+    },
+    {
+      "file": "sfx_dialog_close.wav",
+      "kind": "sfx",
+      "dur_ms": 180,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "关闭：下扫"
+    },
+    {
+      "file": "sfx_dialog_open.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "弹入：低频上扫 + 气声"
+    },
+    {
+      "file": "sfx_draw_arm.wav",
+      "kind": "sfx",
+      "dur_ms": 130,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "长按就绪：笔尖触玻璃"
+    },
+    {
+      "file": "sfx_draw_loop.wav",
+      "kind": "sfx",
+      "dur_ms": 2000,
+      "gain_db": -14.0,
+      "loop": true,
+      "note": "画路持续：石墨在纸上走线（2s 循环）"
+    },
+    {
+      "file": "sfx_endpoint_drop.wav",
+      "kind": "sfx",
+      "dur_ms": 180,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "松手：咔 + 橡胶回弹"
+    },
+    {
+      "file": "sfx_endpoint_grab.wav",
+      "kind": "sfx",
+      "dur_ms": 80,
+      "gain_db": -4.0,
+      "loop": false,
+      "note": "抓端点：磁吸咔"
+    },
+    {
+      "file": "sfx_junction_apply.wav",
+      "kind": "sfx",
+      "dur_ms": 240,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "确认：马林巴 + 纸张"
+    },
+    {
+      "file": "sfx_junction_discard.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "放弃：中性扫掉"
+    },
+    {
+      "file": "sfx_lane_1.wav",
+      "kind": "sfx",
+      "dur_ms": 160,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "车道 1：同音色递增音高"
+    },
+    {
+      "file": "sfx_lane_2.wav",
+      "kind": "sfx",
+      "dur_ms": 160,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "车道 2：同音色递增音高"
+    },
+    {
+      "file": "sfx_lane_3.wav",
+      "kind": "sfx",
+      "dur_ms": 160,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "车道 3：同音色递增音高"
+    },
+    {
+      "file": "sfx_lang_switch.wav",
+      "kind": "sfx",
+      "dur_ms": 180,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "语言：中立两音"
+    },
+    {
+      "file": "sfx_load_ok.wav",
+      "kind": "sfx",
+      "dur_ms": 450,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "加载：上扫 + 场景拼装"
+    },
+    {
+      "file": "sfx_menu_close.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "收起：下扫 + 闷响"
+    },
+    {
+      "file": "sfx_menu_open.wav",
+      "kind": "sfx",
+      "dur_ms": 220,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "展开：上扫 + 末尾落定"
+    },
+    {
+      "file": "sfx_mode_to_edit.wav",
+      "kind": "sfx",
+      "dur_ms": 450,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "进编辑：下沉 + 工具锁定"
+    },
+    {
+      "file": "sfx_mode_to_view.wav",
+      "kind": "sfx",
+      "dur_ms": 450,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "进观看：上浮 + 开阔"
+    },
+    {
+      "file": "sfx_node_close.wav",
+      "kind": "sfx",
+      "dur_ms": 400,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "封闭路口：下行 + 落锁"
+    },
+    {
+      "file": "sfx_node_open.wav",
+      "kind": "sfx",
+      "dur_ms": 450,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "开放路口：两段上行钟声"
+    },
+    {
+      "file": "sfx_noop_soft.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": -10.0,
+      "loop": false,
+      "note": "空操作：比耳语还轻"
+    },
+    {
+      "file": "sfx_phase_green.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": -12.0,
+      "loop": false,
+      "note": "相位灯（仅选中路口）"
+    },
+    {
+      "file": "sfx_phase_red.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": -12.0,
+      "loop": false,
+      "note": "相位灯（仅选中路口）"
+    },
+    {
+      "file": "sfx_phase_yellow.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": -12.0,
+      "loop": false,
+      "note": "相位灯（仅选中路口）"
+    },
+    {
+      "file": "sfx_redo.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "重做：快进"
+    },
+    {
+      "file": "sfx_road_created.wav",
+      "kind": "sfx",
+      "dur_ms": 350,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "道路落成：落定 + 金属唰"
+    },
+    {
+      "file": "sfx_road_deleted.wav",
+      "kind": "sfx",
+      "dur_ms": 280,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "删除：下扫 + 撕纸 + 闷响"
+    },
+    {
+      "file": "sfx_road_rejected.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "无效：两个闷音小二度下行"
+    },
+    {
+      "file": "sfx_save_fail.wav",
+      "kind": "sfx",
+      "dur_ms": 350,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "保存失败：两个闷音下行"
+    },
+    {
+      "file": "sfx_save_ok.wav",
+      "kind": "sfx",
+      "dur_ms": 400,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "保存成功：纯五度两音"
+    },
+    {
+      "file": "sfx_signal_add.wav",
+      "kind": "sfx",
+      "dur_ms": 320,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "加灯：玻璃叮 + 旋入"
+    },
+    {
+      "file": "sfx_signal_remove.wav",
+      "kind": "sfx",
+      "dur_ms": 320,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "删灯：闷掉的叮 + 落"
+    },
+    {
+      "file": "sfx_signal_rule.wav",
+      "kind": "sfx",
+      "dur_ms": 260,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "切规则：上行三连音"
+    },
+    {
+      "file": "sfx_sim_pause.wav",
+      "kind": "sfx",
+      "dur_ms": 400,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "暂停：低通关闭 + 门合上"
+    },
+    {
+      "file": "sfx_sim_reset.wav",
+      "kind": "sfx",
+      "dur_ms": 550,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "重置：反向涌入 + 抹掉"
+    },
+    {
+      "file": "sfx_sim_start.wav",
+      "kind": "sfx",
+      "dur_ms": 700,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "开工：空气推开 + 远处引擎"
+    },
+    {
+      "file": "sfx_speed_05.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_speed_10.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_speed_15.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_speed_20.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_speed_30.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_speed_50.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "倍速档：6 档全音递增"
+    },
+    {
+      "file": "sfx_tap_canvas.wav",
+      "kind": "sfx",
+      "dur_ms": 50,
+      "gain_db": -6.0,
+      "loop": false,
+      "note": "画布点选：几乎只是触到"
+    },
+    {
+      "file": "sfx_tap_primary.wav",
+      "kind": "sfx",
+      "dur_ms": 90,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "主按钮：木体 + 玻璃边"
+    },
+    {
+      "file": "sfx_tap_secondary.wav",
+      "kind": "sfx",
+      "dur_ms": 60,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "次按钮：更轻更高"
+    },
+    {
+      "file": "sfx_to_day.wav",
+      "kind": "sfx",
+      "dur_ms": 1600,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "天亮：冷转暖 + 鸟鸣进入"
+    },
+    {
+      "file": "sfx_to_night.wav",
+      "kind": "sfx",
+      "dur_ms": 1600,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "入夜：暖转冷 + 虫鸣进入"
+    },
+    {
+      "file": "sfx_toast_in.wav",
+      "kind": "sfx",
+      "dur_ms": 140,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "提示：上行大三度两音"
+    },
+    {
+      "file": "sfx_toggle_off.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "关：咔 + 下行两音"
+    },
+    {
+      "file": "sfx_toggle_on.wav",
+      "kind": "sfx",
+      "dur_ms": 120,
+      "gain_db": 0.0,
+      "loop": false,
+      "note": "开：咔 + 上行两音"
+    },
+    {
+      "file": "sfx_ui_hide.wav",
+      "kind": "sfx",
+      "dur_ms": 500,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "去 UI：慢慢关灯"
+    },
+    {
+      "file": "sfx_ui_show.wav",
+      "kind": "sfx",
+      "dur_ms": 500,
+      "gain_db": -3.0,
+      "loop": false,
+      "note": "唤回 UI：慢慢开灯"
+    },
+    {
+      "file": "sfx_undo.wav",
+      "kind": "sfx",
+      "dur_ms": 200,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "撤销：倒带"
+    },
+    {
+      "file": "sfx_vehicle_lock.wav",
+      "kind": "sfx",
+      "dur_ms": 300,
+      "gain_db": -1.0,
+      "loop": false,
+      "note": "锁定：变焦 + 对焦咔"
+    },
+    {
+      "file": "sfx_vehicle_unlock.wav",
+      "kind": "sfx",
+      "dur_ms": 260,
+      "gain_db": -2.0,
+      "loop": false,
+      "note": "解锁：反向变焦"
+    }
+  ]
+}
